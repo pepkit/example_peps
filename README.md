@@ -1,6 +1,6 @@
 # example_peps
 
-Load an example in python:
+## Example 1: basic example
 
 ```{python}
 
@@ -11,8 +11,11 @@ p.samples[0].file
 ``` 
 
 Result: `'data/frog1_data.txt'`
+
+
 ## Example 2: merge table
 
+Example 2 demonstrates how a merge table is used.
 
 ```{python}
 
