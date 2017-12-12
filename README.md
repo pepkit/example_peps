@@ -47,3 +47,17 @@ In [16]: p3.samples[3].file
 Out[16]: '../data/frog4_data.txt
 ```
 
+## Example 4: merges and expansion characters
+
+This example gives the exact same results as example 3, but in this case, uses a wildcard for `frog_2` instead of including it in the merge table. Since we can't use a wildcard and merge for the same sample, this necessitates specifying a second data source class (`local_files_unmerged`) that uses an asterisk. The outcome is the same.
+
+```{python}
+import pep
+p4 = pep.Project("code/example_peps/example3/project_config.yaml")
+p4.samples[0].file
+p4.samples[1].file
+p4.samples[2].file
+p4.samples[3].file
+
+```
+
