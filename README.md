@@ -53,7 +53,7 @@ This example gives the exact same results as example 3, but in this case, uses a
 
 ```{python}
 import pep
-p4 = pep.Project("code/example_peps/example3/project_config.yaml")
+p4 = pep.Project("code/example_peps/example4/project_config.yaml")
 p4.samples[0].file
 p4.samples[1].file
 p4.samples[2].file
@@ -61,3 +61,23 @@ p4.samples[3].file
 
 ```
 
+## Example 5: merges and multiple (separate-class) inputs
+
+Merging is for same class inputs (like, multiple files for read1). Different-class inputs (like read1 vs read2) are handled by different attributes (or columns). This example shows you how to handle paired-end data, while also merging within each.
+
+```{python}
+import pep
+p5 = pep.Project("code/example_peps/example5/project_config.yaml")
+p5.samples[0].read1
+p5.samples[0].read2
+
+p5.samples[1].read1
+p5.samples[1].read2
+
+p5.samples[2].read1
+p5.samples[2].read2
+
+p5.samples[3].read1
+p5.samples[3].read2
+
+```
