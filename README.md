@@ -25,7 +25,7 @@ p2.samples[0].file
 Result: `'data/frog1a_data.txt data/frog1b_data.txt data/frog1c_data.txt'`
 
 
-# Example 3: merges and derived columns
+## Example 3: merges and derived columns
 
 Example 3 uses a merge table and a derived column to point to files. This is a rather complex example. Notice we must include the `file_id` column in the `sample_annotation` table, and leave it blank; this is then populated by just some of the samples (`frog_1` and `frog_2`) in the merge table, but is left empty for the samples that are not merged.
 
