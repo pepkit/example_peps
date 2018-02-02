@@ -70,17 +70,40 @@ Merging is for same class inputs (like, multiple files for read1). Different-cla
 
 ```{python}
 import peppy
-p5 = peppy.Project("code/example_peps/example5/project_config.yaml")
-p5.samples[0].read1
-p5.samples[0].read2
+p6 = peppy.Project("code/example_peps/example6/project_config.yaml")
+p6.samples[0].read1
+p6.samples[0].read2
 
-p5.samples[1].read1
-p5.samples[1].read2
+p6.samples[1].read1
+p6.samples[1].read2
 
-p5.samples[2].read1
-p5.samples[2].read2
+p6.samples[2].read1
+p6.samples[2].read2
 
-p5.samples[3].read1
-p5.samples[3].read2
+p6.samples[3].read1
+p6.samples[3].read2
+
+```
+
+
+
+## Example 6: subannotations and multiple (separate-class) inputs with derived columns
+
+Merging is for same class inputs (like, multiple files for read1). Different-class inputs (like read1 vs read2) are handled by different attributes (or columns). This example shows you how to handle paired-end data, while also merging within each.
+
+```{python}
+import peppy
+p6 = peppy.Project("code/example_peps/example6/project_config.yaml")
+p6.samples[0].read1
+p6.samples[0].read2
+
+p6.samples[1].read1
+p6.samples[1].read2
+
+p6.samples[2].read1
+p6.samples[2].read2
+
+p6.samples[3].read1
+p6.samples[3].read2
 
 ```
