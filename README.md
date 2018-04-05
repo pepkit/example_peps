@@ -1,8 +1,6 @@
 # example_peps
 
-*Prerequisite:* You first need to install the .
-
-This repository contains examples of [Portable Encapsulated Projects](http://pepkit.github.io). These examples show you how to format your projects as PEPs. You can read these examples into either `python` or `R`:
+This repository contains examples of [Portable Encapsulated Projects](http://pepkit.github.io). You can read these examples into either `python` or `R`:
 
 
 ## Python
@@ -29,12 +27,4 @@ library('pepr')
 p = pepr::Project("example1/project_config.yaml")
 ```
 
-More detailed R vignettes:
-
-* [Basic R pepr tutorial](tutorial.html) - use `pepr` to load up a minimal example PEP.
-
-## Rendering the vignettes:
-
-```
-R -e "rmarkdown::render('$CODE/example_peps/tutorial.Rmd')"
-```
+More detailed R vignettes are available as part of the [documentation for the pepr package](http://code.databio.org/pepr).
