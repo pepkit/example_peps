@@ -1,6 +1,6 @@
 # example_peps
 
-This repository contains examples of [Portable Encapsulated Projects](http://pepkit.github.io). You can read these examples into either `python` or `R`:
+This repository contains examples of [Portable Encapsulated Projects](http://pepkit.github.io). Explore the examples interactively with `python` or `R`:
 
 
 ## Python
