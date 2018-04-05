@@ -1,0 +1,11 @@
+
+```{r}
+library('pepr')
+p = pepr::Project("/home/nsheff/code/example_peps/example1/project_config.yaml")
+
+samples(p)
+config(p)
+
+p@config
+p@samples
+```
