@@ -1,5 +1,6 @@
 # Specific ignores:
 
+.ipynb_checkpoints/
 # Sphinx documentation
 docs/_build/
 
