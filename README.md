@@ -31,4 +31,4 @@ More detailed R vignettes are available as part of the [documentation for the pe
 
 ## Looper
 
-These projects can also be run through any command-line tool (such as a pipeline) using [looper](https://github.com/pepkit/looper). To see a complete example of a PEP and a looper-compatjibile pipeline, visit the [hello looper repository](https://github.com/pepkit/hello_looper).
+These projects can also be run through any command-line tool (such as a pipeline) using [looper](https://github.com/pepkit/looper). To see a complete example of a PEP and a looper-compatible pipeline, visit the [hello looper repository](https://github.com/pepkit/hello_looper).
