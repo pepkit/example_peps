@@ -12,10 +12,17 @@ import peppy
 proj1 = peppy.Project("example1/project_config.yaml")
 ```
 
-These Jupyter notebooks show you how to explore these examples interactively in python:
+These Jupyter notebooks show you how to explore these examples interactively in python. You can view the rendered notebooks right here:
 
 * [Basic peppy tutorial](tutorial.ipynb) - use `peppy` to load up a minimal example PEP.
 * [Sample subannotation](subannotation.ipynb) - how to use subannotations.
+
+If you want to run them interactively with `jupyter`, just start it on the command line like this:
+
+```
+jupyter notebook subannotation.ipynb
+```
+
 
 
 ## R
