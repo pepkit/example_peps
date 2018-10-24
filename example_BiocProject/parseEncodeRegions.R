@@ -12,7 +12,7 @@ parseEncodeRegions = function(project) {
     dir.create(file.path(workDir))
   }
   # download the file
-  bfc = BiocFileCache(cache = workDir,ask = F)
+  bfc = BiocFileCache(cache = workDir)
   path = bfcrpath(bfc,url)
   # read it in
   df=read.table(path)
