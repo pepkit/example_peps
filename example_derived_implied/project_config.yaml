@@ -13,11 +13,14 @@ implied_attributes:
             genome: "susScr11"
         frog:
             genome: "xenTro9"
+            test:
     time:
         0:
             condition: "untreated"
         1:
             condition: "treated"
+            test:
+                
 
 
 
