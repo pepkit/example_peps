@@ -7,5 +7,5 @@ data_sources:
   ucsc: http://hgdownload.cse.ucsc.edu/goldenpath/hg19/database/{sample_name}
 
 bioconductor:
-  read_fun_name: parseEncodeRegions
-  read_fun_path: parseEncodeRegions.R
+  read_fun_name: parseEncodeRegions_resize
+  read_fun_path: parseEncodeRegions_resize.R
