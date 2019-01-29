@@ -4,3 +4,6 @@ metadata:
 bioconductor:
   read_fun_name: readBedFiles_resize
   read_fun_path: readBedFiles_resize.R
+  funcArgs: 
+    resize.width: 100
+
