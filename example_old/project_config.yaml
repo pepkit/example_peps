@@ -1,10 +1,9 @@
-# Run PEPPRO Paper representative samples through PEPPRO
-name: PEPPRO
+name: test pipeline
 
 metadata:
-  sample_table: "peppro_paper.csv"
-  output_dir: "$PROCESSED/peppro/paper"
-  pipeline_interfaces: "$CODE/peppro/pipeline_interface.yaml" 
+  sample_table: "sample_table.csv"
+  output_dir: "$HOME"
+  pipeline_interfaces: "$HOME/pipeline_interface.yaml" 
   
 derived_columns: [read1, read2]
 
