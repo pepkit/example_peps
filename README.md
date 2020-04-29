@@ -7,7 +7,7 @@ This repository contains examples of **PEPs** (Portable Encapsulated Projects). 
 
 Your basic python workflow uses the [`peppy`](http://github.com/pepkit/peppy) package and starts out like this:
 
-```{python}
+```python
 import peppy
 proj1 = peppy.Project("example_basic/project_config.yaml")
 ```
@@ -17,7 +17,7 @@ More detailed Python vignettes are available as part of the [documentation for t
 
 Your basic `R` workflow uses the [`pepr`](http://github.com/pepkit/pepr) package and starts like this:
 
-```{r}
+```r
 library('pepr')
 p = pepr::Project("example_basic/project_config.yaml")
 ```
