@@ -1,0 +1,5 @@
+protocol,organism,time
+RRBS,pig,0,source1
+RRBS,pig,1,source1
+RRBS,frog,0,source1
+RRBS,frog,1,source1
