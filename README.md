@@ -38,8 +38,8 @@ These PEPs extend the PEP2.0.0 framework and may include additional fields used 
   - [example_BiocProject](example_BiocProject)
   - [example_BiocProject_exceptions](example_BiocProject_exceptions)
   - [example_BiocProject_remote](example_BiocProject_remote) 
-
-### Read PEPs in Python
+---
+## Read PEPs in Python
 
 Your basic python workflow uses the [`peppy`](http://github.com/pepkit/peppy) package and starts out like this:
 
@@ -49,7 +49,7 @@ proj1 = peppy.Project("example_basic/project_config.yaml")
 ```
 More detailed Python vignettes are available as part of the [documentation for the `peppy` package](http://peppy.databio.org/en/latest/).
 
-### Read PEPs in R
+## Read PEPs in R
 
 Your basic `R` workflow uses the [`pepr`](http://github.com/pepkit/pepr) package and starts like this:
 
