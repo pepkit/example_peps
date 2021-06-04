@@ -1,7 +1,7 @@
 output_file_in_object:
   type: object
   value: {
-    "prop2": {"path": "{protocol}_{SRR}_test1.pdf", "thumbnail_path": "{protocol}_{SRR}_test1.png", "title": "test title"}, 
+    "prop2": {"path": "{protocol}_{SRR}_test1.pdf", "thumbnail_path": "{protocol}_{SRR}_test1.png", "title": "test title"},
     "prop1": {"path": "{protocol}_{SRR}_test1.pdf", "title": "test title"}
   }
   properties:

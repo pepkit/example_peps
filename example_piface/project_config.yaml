@@ -8,7 +8,7 @@ looper:
   output_dir: ../output
   pipeline_interfaces: ["pipeline_interface1_project.yaml", "pipeline_interface2_project.yaml"]
 
-sample_modifiers: 
+sample_modifiers:
   append:
     attr: "val"
     pipeline_interfaces: ["pipeline_interface1_sample.yaml", "pipeline_interface2_sample.yaml"]
